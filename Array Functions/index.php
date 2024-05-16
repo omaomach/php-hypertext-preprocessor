@@ -60,6 +60,8 @@ $tagsArr = explode(',', $tags);
 // implode
 $output = implode(', ', $users)
 
+// unset()
+
 // PHP documentation ("https://www.php.net/manual/en/ref.array.php").
 
 ?>
