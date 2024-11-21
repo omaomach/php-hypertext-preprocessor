@@ -12,45 +12,47 @@ $title = "Learn PHP From The Start";
 // - `a` - AM/PM
 
 // Get year
-$output = date('Y');
+// $output = date('Y');
 
 // Get year with timestamp
-$output = date('Y', 936345600);
+// $output = date('Y', 946598400);
 
 // Get timestamp from strtotime
-$output = date('Y', strtotime('1999-09-01'));
+// $output = date('Y', strtotime('1999-09-01'));
 
 // Get Month number from strtotime
-$output = date('m', strtotime('1999-09-01'));
+// $output = date('m', strtotime('1999-09-01'));
 
 // Get Month name from strtotime
-$output = date('M', strtotime('1999-09-01'));
+// $output = date('M', strtotime('1999-09-01'));
 
 // Get Current month
-$output = date('M');
+// $output = date('M');
 
 // Get day
-$output = date('d');
-$output = date('D');
-$output = date('l');
+// $output = date('d');
+// $output = date('D');
+// $output = date('l');
 
 // Get Year, Month and Day
-$output = date('Y-m-d');
+// $output = date('d-m-Y');
 
 // Get Month, Day and Year
-$output = date('m-d-Y');
+// $output = date('m-d-Y');
 
 // Get hour
-$output = date('h');
+// date_default_timezone_set('Africa/Nairobi');
+// echo date_default_timezone_get();
+// $output = date('h a T');
 
 // Get min
-$output = date('i');
+// $output = date('i');
 
 // Get second
-$output = date('s');
+// $output = date('s');
 
 // Get am/pm
-$output = date('a');
+// $output = date('a');
 
 // Put it all together
 $output = date('Y-m-d  h:i:s a')

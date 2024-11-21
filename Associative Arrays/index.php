@@ -13,14 +13,16 @@ $user = [
 // var_dump($user);
 // echo '</pre>';
 
-$output = $user['name'];
-$output = $user['email'];
+// $output = $user['name'];
+// $output = $user['email'];
 
 // $output = print_r($user['hobbies']);
-$output = $user['hobbies'][2];
+// $output = $user['hobbies'][2];
 $user['address'] = 'Kahawa Sukari';
 
-unset($user['address']);
+// print_r($user)
+
+// unset($user['address']);
 
 ?>
 
@@ -40,6 +42,7 @@ unset($user['address']);
     <p>
     <pre>
             <?php print_r($user) ?>
+            <!-- <?php $output ?> -->
         </pre>
     </p>
 </body>

@@ -33,31 +33,31 @@ array_unshift($id, 37);
 array_unshift($users, 'user5');
 
 // array_slice() - this function returns part of the array as a new array
-$id2 = array_slice($id, 1, 3);
+$id2 = array_slice($id, 1, 3); // the function takes an array, an index, the length you want to go from the index provided
 // var_dump($id2);
 
 // // array_splice() - 
-// array_splice($id, 1, 1, "New ID");
+// array_splice($id, 1, 1, "New ID");  
 array_splice($users, 0, 1, "New User");
 
 // array_sum()
-$output = 'Sum of IDs: ' . array_sum($id);
+// $output = 'Sum of IDs: ' . array_sum($id);
 
-// array_search()
-$output = "User 2 is at index: " . array_search("user2", $users);
+// array_search() // this function takes in the value and the array. It then returns the index of the value
+// $output = "User 2 is at index: " . array_search("user2", $users);
 
 array_push($users, "user3");
 
-// in_array()
-$output = "User 3 Exists: " . in_array("user3", $users);
-var_dump(in_array("user3", $users));
+// in_array() // Checks if a value exists in an array
+// $output = "User 3 Exists: " . in_array("user3", $users);
+// var_dump(in_array("user3", $users));
 
-// explode()
+// explode() - This turns comma separated string into an array
 $tags = 'code,with,joash';
 $tagsArr = explode(',', $tags);
 // var_dump($tagsArr);
 
-// implode
+// implode - This turns an array into comma separated strings
 $output = implode(', ', $users)
 
 // unset()
@@ -82,7 +82,7 @@ $output = implode(', ', $users)
             <h2 class="text-xl font-semi-bold my-4">ID Array:</h2>
             <p>
             <pre>
-                    <?php print_r($id); ?>
+                    <?php print_r($id2); ?>
                 </pre>
             </p>
             <h2 class="text-xl font-semi-bold my-4">Users Array:</h2>

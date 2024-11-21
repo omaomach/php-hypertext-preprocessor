@@ -41,5 +41,5 @@ var_dump($car);
 echo '<br />';
 
 // Resource
-$file = fopen('sample.txt', 'r');
-var_dump($file);
+// $file = fopen('sample.txt', 'r');
+// var_dump($file);

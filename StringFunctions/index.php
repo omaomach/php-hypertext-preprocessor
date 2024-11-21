@@ -7,31 +7,31 @@ $string = "Hello World";
 $output = strlen($string);
 
 // str_word_count()
-$output = str_word_count($string);
+// $output = str_word_count($string);
 
 // strpos() - get index at which the word starts
-$output = strpos($string, "World");
+// $output = strpos($string, "World");
 
 // Get specific character by index
-$output = $string[4];
+// $output = $string[4];
 
 // substr()
-$output = substr($string, 6, 5);
+// $output = substr($string, 6, 5);
 
 // str_replace()
-$output = str_replace("World", "Universe", $string);
+// $output = str_replace("World", "Universe", $string);
 
 // strtolower()
-$output = strtolower($string);
+// $output = strtolower($string);
 
 // strtoupper()
-$output = strtoupper($string);
+// $output = strtoupper($string);
 
 // ucwords() - make the first letters of the word uppercase
-$output = ucwords($string);
+// $output = ucwords($string);
 
 // trim()
-$output = trim(' Hello World ');
+// $output = trim(' Hello World ');
 
 ?>
 

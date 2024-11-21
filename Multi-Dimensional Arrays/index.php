@@ -41,14 +41,14 @@ array_push($users, [
     'password' => 'mwabe',
 ]);
 
-unset($users[0]);
+// unset($users[0]);
 
-array_pop($users);
-array_shift($users);
+// array_pop($users);
+// array_shift($users);
 
-$output = $users[0]['name'];
+$output = $users[0]['email'];
 
-$output = count($users);
+// $output = count($users);
 
 ?>
 

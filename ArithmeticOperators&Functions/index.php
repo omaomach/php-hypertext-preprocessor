@@ -1,14 +1,14 @@
 <?php
 $output = null;
 
-$num1 = 20;
+$num1 = 18;
 $num2 = 10;
 
 $output1 = "$num1 + $num2 = " . $num1 + $num2;
 $output2 = "$num1 - $num2 = " . $num1 - $num2;
 $output3 = "$num1 * $num2 = " . $num1 * $num2;
-$output4 = "$num1 / $num2 = " . $num1 / $num2;
-$output5 = "$num1 % $num2 = " . $num1 % $num2; // REMAINDER
+$output = "$num1 / $num2 = " . $num1 / $num2;
+// $output = "$num1 % $num2 = " . $num1 % $num2; // REMAINDER
 
 // Assignment Operator
 $num3 = 10;
@@ -16,42 +16,42 @@ $num3 = 10;
 // $num3 += 20;
 // $num3 -= 20;
 // $num3 /= 2;
-$output6 = $num3;
+// $output = $num3;
 
 // Built in PHP Functions
 // rand()
-$output7 = rand();
-$output8 = number_format(getrandmax());
-$output9 = rand(1, 20);
+// $output = rand();
+// $output = number_format(getrandmax());
+// $output = rand(1, 20);
 
 // round()
-$output9 = round(4.9);
+// $output = round(4.9); // this will return 5
 
 // ceil()
-$output9 = ceil(3.1);
+// $output = ceil(3.1); // this will return  4 
 
 // floor()
-$output9 = floor(6.7);
+// $output = floor(6.7); this will return 6
 
 // sqrt()
-$output9 = sqrt(64);
+// $output = sqrt(64);
 
 // pi()
-$output9 = pi();
+// $output = pi();
 
 // abs()
-$output9 = abs(-4.7);
+// $output = abs(-4.7);
 
 // max() - get the highest value in a list or array of numbers
-$output9 = max(1, 2, 3, 4, 5, 6, 7);
-$output9 = max([1, 10, 3, 20, 5, 6, 7]);
+// $output = max(1, 2, 3, 4, 5, 6, 7);
+// $output = max([1, 10, 3, 20, 5, 6, 7]);
 
 // min() - get the lowest value in a list or array of numbers
-$output9 = min(1, 2, 3, 4, 5, 6, 7);
-$output9 = min([1, 10, 3, 20, 5, 6, 7]);
+// $output = min(1, 2, 3, 4, 5, 6, 7);
+// $output = min([1, 10, 3, 20, 5, 6, 7]);
 
 // number_format()
-$output9 = number_format(1234567.191234, 2, ".", ",");
+// $output = number_format(1234567.191234, 2, ".", ",");
 
 ?>
 
@@ -66,7 +66,7 @@ $output9 = number_format(1234567.191234, 2, ".", ",");
 </head>
 
 <body>
-    <?= $output9 ?>
+    <?= $output ?>
 </body>
 
 </html>
