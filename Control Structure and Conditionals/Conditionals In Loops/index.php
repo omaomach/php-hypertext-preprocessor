@@ -37,6 +37,6 @@ $studentGrades = array(
 
 foreach ($studentGrades as $name => $grade) {
     if ($grade >= 90) {
-        echo $name . ' has an excellent grade <br>';
+        echo $name . ' has an excellent grade of ' . $grade . '<br>';
     };
 }
