@@ -14,14 +14,14 @@ function sayHello()
 
 // echo $name;
 
-// sayHello();
+sayHello();
 
 // echo $name;
 
-function sayGoodbye()
-{
-    $names = ['Jack', 'Jill'];
-    echo 'Goodbye ' . $names[0];
-}
+// function sayGoodbye()
+// {
+//     $names = ['Jack', 'Jill'];
+//     echo 'Goodbye ' . $names[0];
+// }
 
-sayGoodbye();
+// sayGoodbye();
