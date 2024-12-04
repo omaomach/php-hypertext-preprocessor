@@ -14,7 +14,7 @@ class User
     public $name;
     public $email;
     private $status = 'active';
-    protected $employed = 'Yes';
+    // protected $employed = 'Yes';
 
     // Constructor
     public function __construct($name, $email)
@@ -49,7 +49,7 @@ $user1 = new User('Joash', 'joash@gmail.com'); // Any moment, an instance of the
 // echo '<br>';
 $user1->setStatus('inactive');
 echo $user1->getStatus();
-$user1->employed;
+// $user1->employed;
 echo '<br>';
 
 $user2 = new User('Joel', 'joel@gmail.com');
